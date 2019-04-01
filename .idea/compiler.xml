@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,9 +10,20 @@
         <module name="basic_util" />
         <module name="config_server_1299" />
         <module name="eureka_server_7001" />
+        <module name="generator" />
         <module name="plat_interface" />
         <module name="plat_provider_8001" />
+        <module name="plat_provider_8001 (1)" />
+        <module name="product_base" />
+        <module name="product_interface" />
+        <module name="product_provider_8002" />
         <module name="zuul_server_9527" />
+      </profile>
+      <profile name="Annotation profile for aigou_parent" enabled="true">
+        <sourceOutputDir name="../../plat_parent/plat_interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../plat_parent/plat_interface/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="plat_interface (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,9 +33,16 @@
       <module name="basic_util" target="1.8" />
       <module name="config_server_1299" target="1.8" />
       <module name="eureka_server_7001" target="1.8" />
+      <module name="generator" target="1.8" />
       <module name="plat_interface" target="1.8" />
+      <module name="plat_interface (1)" target="1.8" />
       <module name="plat_parent" target="1.8" />
       <module name="plat_provider_8001" target="1.8" />
+      <module name="plat_provider_8001 (1)" target="1.8" />
+      <module name="product_base" target="1.8" />
+      <module name="product_interface" target="1.8" />
+      <module name="product_parent" target="1.8" />
+      <module name="product_provider_8002" target="1.8" />
       <module name="zuul_server_9527" target="1.7" />
     </bytecodeTargetLevel>
   </component>

@@ -14,6 +14,8 @@
         <module>config_server_1299</module>
         <module>zuul_server_9527</module>
         <module>plat_parent</module>
+        <module>product_parent</module>
+        <module>generator</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
